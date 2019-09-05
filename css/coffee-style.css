@@ -1,0 +1,29 @@
+body {
+    background-image: url("../img/coffeeShop.jpg");
+    background-size: cover;
+}
+
+* {
+    font-family: 'Amaranth', sans-serif;
+}
+#header {
+    font-size: 48px;
+}
+
+.coffee-list {
+    opacity: initial;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+.card-body {
+    background-color: transparent;
+}
+
