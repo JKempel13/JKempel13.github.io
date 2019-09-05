@@ -5,7 +5,13 @@
     display: flex;
 }
 #aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     float: right;
+}
+.abtme {
+    align-content: center;
 }
 .btn-outline-success {
     border-color: #0b0b0b;
@@ -13,4 +19,6 @@
 }
 .display-4 {
     font-family: 'Varela Round', Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
